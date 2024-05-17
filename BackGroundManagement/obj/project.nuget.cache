@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hML4Q9JnqDjENESOSYjcPEmq24GZRK2QiGlyCrw7T09FMmzQQ/78hMRSPvo4rWDtShzaY6HFBAU5Kz9maXMrzA==",
+  "dgSpecHash": "7T/2Yq5MxuTNW/uzYd5QztOUjhNv8aS1Jr9U/i8VIsp7Hv6MlHTrMc2zHam8jsPDBtQaduWLVKIb696jPYWeGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\C#\\BackGroundManagement\\BackGroundManagement\\BackGroundManagement.csproj",
+  "projectFilePath": "D:\\Github\\MyWeb\\BackGroundManagement\\BackGroundManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

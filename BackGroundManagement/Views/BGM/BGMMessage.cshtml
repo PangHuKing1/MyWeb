@@ -52,12 +52,6 @@
                     <form class="layui-form" id="AddForm" method="post" lay-filter="example">
                         <div class="layui-form-item">
                             <div class="layui-inline">
-                                <label class="layui-form-label">编号</label>
-                                <div class="layui-input-block">
-                                    <input type="text" name="Number" id="Number" lay-verify="required" autocomplete="off" placeholder="请输入编号" class="layui-input">
-                                </div>
-                            </div>
-                            <div class="layui-inline">
                                 <label class="layui-form-label">姓名</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="Name" id="Name" lay-verify="required" autocomplete="off" placeholder="请输入姓名" class="layui-input">
@@ -84,22 +78,26 @@
                             <div class="layui-inline">
                                 <label class="layui-form-label">状态</label>
                                 <div class="layui-input-block">
-                                    <div class="layui-input-block" id="Status">
-                                        <input type="radio" name="Status" value="1" title="在用" lay-filter="StatusRadio" checked>
-                                        <input type="radio" name="Status" value="0" title="空闲" lay-filter="StatusRadio">
-                                    </div>
+                                    <input type="text" name="Status" id="Status" autocomplete="off" placeholder="在用或者空闲" class="layui-input">
                                 </div>
                             </div>
                             <div class="layui-inline">
                                 <label class="layui-form-label">配置</label>
                                 <div class="layui-input-block">
-                                    <input type="text" name="Config" id="Config" autocomplete="off" placeholder="请输入电脑配置" class="layui-input">
+                                <textarea cols="50" rows="10" name="Config" id="Config" placeholder="请输入电脑配置"></textarea>
+                                    
                                 </div>
                             </div>
                             <div class="layui-inline">
                                 <label class="layui-form-label">备注</label>
                                 <div class="layui-input-block">
                                     <input type="text" name="Memo" id="Memo" autocomplete="off" placeholder="请输入备注" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline" style="display:none">
+                                <label class="layui-form-label">Guid</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="Guid" id="Guid" autocomplete="off" placeholder="" class="layui-input">
                                 </div>
                             </div>
                         </div>
@@ -136,21 +134,21 @@
 
                 table.render({
                     elem: '#computerTable',
-                    id: 'ComputerTable',
                     method: 'post',
                     url: '../BGM/ComputerMessage',
                     toolbar: '#toolbarDemo',
                     defaultToolbar: ['exports', 'print'],
                     cols: [[
-                        { field: 'number', width: 80, title: '', sort: true },
+                        { type: 'numbers', title: '序号', width: 80, fixed: 'left',sort:true },
                         { field: 'name', width: 100, title: '姓名' },
                         { field: 'department', width: 120, title: '一级部门' },
                         { field: 'secDepartment', width: 120, title: '二级部门' },
                         { field: 'level', width: 120, title: '等级' },
                         { field: 'status', width: 80, title: '状态' },
-                        { field: 'config', width: 240, title: '配置' },
-                        { field: 'memo', width: 120, title: '备注' },
-                        { title: '操作', minwidth: 210, toolbar: '#currentTableBar', align: 'center' }
+                        { field: 'config', width: 300, title: '配置' ,height:100},
+                        { field: 'memo', width: 300, title: '备注' },
+                        { title: '操作', width: 210, toolbar: '#currentTableBar', align: 'center', fixed: 'right' },
+                        { field: 'guid', width: 120, title: 'GUID',hide:true }
                     ]],
 
                     limits: [5, 10, 15, 20, 25, 50],//页数
@@ -186,7 +184,7 @@
                             shade:0,
                             content:$('#AddFormDiv'),
                             success:function(layero,index){
-                                $('#Number').val(data.number);
+                                $('#Guid').val(data.guid);
                                 $('#Name').val(data.name);
                                 $('#Department').val(data.department);
                                 $('#SecDepartment').val(data.secDepartment);
@@ -202,7 +200,7 @@
                             },yes:function(){
                                 form.on('submit(formButton)',function(){
                                     var com = {};
-                                    var Number = $('#Number').val();
+                                    var GUID = $('#Guid').val();
                                     var Name = $('#Name').val();
                                     var Department = $('#Department').val();
                                     var SecDepartment = $('#SecDepartment').val();
@@ -211,7 +209,7 @@
                                     var Config = $('#Config').val();
                                     var Memo = $('#Memo').val();
 
-                                    com.Number = Number;
+                                    com.GUID = GUID;
                                     com.Name = Name;
                                     com.Department = Department;
                                     com.SecDepartment = SecDepartment;
@@ -229,7 +227,7 @@
                                             if(res.code === 0){
                                                 layer.close(editlay);
                                                 layer.alert(res.msg);
-                                                table.reloadData('ComputerTable');
+                                                table.reloadData('TableId');
                                             }else{
                                                 layer.alert(res.msg);
                                             }
@@ -244,13 +242,13 @@
                             $.ajax({
                                 url:'BGM/Delete',
                                 data:{
-                                    Number : data.number
+                                    GUID : data.guid
                                 },
                                 type:'post',
                                 success:function(res){
                                     if(res.code === 0 ){
                                         layer.close(index);
-                                        table.reload('computerTable')
+                                        table.reloadData('TableId')
                                     }
                                     else{
                                         layer.close(index);
@@ -273,7 +271,7 @@
                         shade:0,
                         content:$('#AddFormDiv'),
                         success: function (layero, index) {
-                            
+                            $('#AddForm')[0].reset();
                             layero.addClass('layui-form');
                             layero.find('.layui-layer-btn0').attr({
                                 'lay-filter': 'formButton',
@@ -282,7 +280,6 @@
                         }, yes: function () {
                             form.on('submit(formButton)', function () {
                                 var com = {};
-                                var Number = $('#Number').val();
                                 var Name = $('#Name').val();
                                 var Department = $('#Department').val();
                                 var SecDepartment = $('#SecDepartment').val();
@@ -291,7 +288,6 @@
                                 var Config = $('#Config').val();
                                 var Memo = $('#Memo').val();
 
-                                com.Number = Number;
                                 com.Name = Name;
                                 com.Department = Department;
                                 com.SecDepartment = SecDepartment;
@@ -309,7 +305,7 @@
                                         if (res.code === 0) {
                                             layer.close(addlay);
                                             layer.alert(res.msg);
-                                            table.reload('computerTable');
+                                            table.reloadData('TableId')
                                         } else {
                                             layer.alert(res.msg);
                                         }
@@ -318,7 +314,7 @@
                             })
                         },
                         btn2:function(){
-                            $('#btn-add')[0].reset();
+                            layer.close(addlay)
                         }
                     });
                 })

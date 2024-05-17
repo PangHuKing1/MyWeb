@@ -5778,11 +5778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\C#\\BackGroundManagement\\BackGroundManagement\\BackGroundManagement.csproj",
+      "projectUniqueName": "D:\\Github\\MyWeb\\BackGroundManagement\\BackGroundManagement.csproj",
       "projectName": "BackGroundManagement",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\C#\\BackGroundManagement\\BackGroundManagement\\BackGroundManagement.csproj",
+      "projectPath": "D:\\Github\\MyWeb\\BackGroundManagement\\BackGroundManagement.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\C#\\BackGroundManagement\\BackGroundManagement\\obj\\",
+      "outputPath": "D:\\Github\\MyWeb\\BackGroundManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\Microsoft Visual Studio\\Shared\\NuGetPackages"

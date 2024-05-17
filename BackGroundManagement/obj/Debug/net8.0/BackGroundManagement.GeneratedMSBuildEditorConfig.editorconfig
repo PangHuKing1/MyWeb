@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BackGroundManagement
 build_property.RootNamespace = BackGroundManagement
-build_property.ProjectDir = C:\Users\Administrator\Desktop\C#\BackGroundManagement\BackGroundManagement\
+build_property.ProjectDir = D:\Github\MyWeb\BackGroundManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrator\Desktop\C#\BackGroundManagement\BackGroundManagement
+build_property.MSBuildProjectDirectory = D:\Github\MyWeb\BackGroundManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/BGM/BGMMessage.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/BGM/BGMMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkdNXEJHTU1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/BGM/EditComputer.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/BGM/EditComputer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkdNXEVkaXRDb21wdXRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/Home/Index.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/Home/Privacy.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/Shared/Error.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/_ViewImports.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/_ViewStart.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/Desktop/C\#/BackGroundManagement/BackGroundManagement/Views/Shared/_Layout.cshtml]
+[D:/Github/MyWeb/BackGroundManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6mafdu4yhm
