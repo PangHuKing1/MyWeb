@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\layui.css" />
+    <Content Remove="wwwroot\css\layuimini.css" />
+    <Content Remove="wwwroot\css\public.css" />
+    <Content Remove="wwwroot\js\css\layui.css" />
+    <Content Remove="wwwroot\js\css\modules\code.css" />
+    <Content Remove="wwwroot\js\css\modules\laydate\default\laydate.css" />
+    <Content Remove="wwwroot\js\css\modules\layer\default\icon-ext.png" />
+    <Content Remove="wwwroot\js\css\modules\layer\default\icon.png" />
+    <Content Remove="wwwroot\js\css\modules\layer\default\layer.css" />
+    <Content Remove="wwwroot\js\css\modules\layer\default\loading-0.gif" />
+    <Content Remove="wwwroot\js\css\modules\layer\default\loading-1.gif" />
+    <Content Remove="wwwroot\js\css\modules\layer\default\loading-2.gif" />
+    <Content Remove="wwwroot\js\lay-config.js" />
+    <Content Remove="wwwroot\js\layui.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\font\iconfont.eot" />
+    <None Include="wwwroot\font\iconfont.svg" />
+    <None Include="wwwroot\font\iconfont.ttf" />
+    <None Include="wwwroot\font\iconfont.woff" />
+    <None Include="wwwroot\font\iconfont.woff2" />
+    <None Include="wwwroot\css\layui.css" />
+    <None Include="wwwroot\css\layuimini.css" />
+    <None Include="wwwroot\css\public.css" />
+    <None Include="wwwroot\js\css\layui.css" />
+    <None Include="wwwroot\js\css\modules\code.css" />
+    <None Include="wwwroot\js\css\modules\laydate\default\laydate.css" />
+    <None Include="wwwroot\js\css\modules\layer\default\icon-ext.png" />
+    <None Include="wwwroot\js\css\modules\layer\default\icon.png" />
+    <None Include="wwwroot\js\css\modules\layer\default\layer.css" />
+    <None Include="wwwroot\js\css\modules\layer\default\loading-0.gif" />
+    <None Include="wwwroot\js\css\modules\layer\default\loading-1.gif" />
+    <None Include="wwwroot\js\css\modules\layer\default\loading-2.gif" />
+    <None Include="wwwroot\js\lay-config.js" />
+    <None Include="wwwroot\js\layui.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.3.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+</Project>
