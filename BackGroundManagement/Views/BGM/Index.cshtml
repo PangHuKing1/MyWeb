@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>后台管理系统 - 观己设计</title>
+        <link href="//unpkg.com/layui@2.9.10/dist/css/layui.css" rel="stylesheet">
+    </head>
+    <body class="layui-layout-body">
+        <div class="layui-layout layui-layout-admin">
+            <div class="layui-header">
+                <div class="layui-logo" style="user-select: none;"><h1>观己设计</h1></div>
+            </div>
+            <div class="layui-side layui-bg-black">
+                <ul class="layui-nav layui-nav-tree ">
+                    <li class="layui-nav-item"><a href="/BGM/BGMMessage" target="iframeComputer">电脑管理</a></li>
+                    <li class="layui-nav-item"><a href="javascript:;">人事管理</a></li>
+                </ul>
+            </div>
+            <div class="layui-body">
+                <div>
+                    <div class="layadmin-tabsbody-item layui-show">
+                        <iframe src="" frameborder="0" class="layadmin-iframe" name="iframeComputer" style="width:100%;height:100%"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="//cdn.staticfile.org/layui/2.9.10/layui.js"></script>
+        <script>
+            layui.use(function () {
+                var element = layui.element;
+                element.render('nav');
+            });
+        </script>
+</body>
+</html>
