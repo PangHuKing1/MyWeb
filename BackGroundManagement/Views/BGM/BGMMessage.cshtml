@@ -92,6 +92,7 @@
             <div class="layui-btn-container">
                 <button id="btn-add" class="layui-btn" lay-event="add">新建</button>
             </div>
+           
         </script>
 
         <!--表格部分，在下方table.render部分进行表格操作-->
@@ -320,6 +321,22 @@
                     });
                     return false;
                 })
+
+            $('#Search').keydown(function (event) {
+                if (event.witch == 13) {
+                    var key = $('#Search').val();
+                    table.reload('TableId', {
+                        url: 'ComputerMessage',
+                        where: {
+                            key: key
+                        },
+                        page: {
+                            curr: 1
+                        }
+                    });
+                    return false;
+                }
+            });
         });
         </script>
     </body>

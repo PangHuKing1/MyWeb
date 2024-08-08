@@ -152,3 +152,12 @@ D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\ru\Microsoft.CodeAnalysi
 D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\System.Web.Mvc.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\System.Web.Razor.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\System.Web.Helpers.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\System.Web.WebPages.Deployment.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\System.Web.WebPages.Razor.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\System.Web.WebPages.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Github\MyWeb\BackGroundManagement\bin\Release\net8.0\Microsoft.Web.Infrastructure.dll

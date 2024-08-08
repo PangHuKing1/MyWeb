@@ -12,9 +12,17 @@ D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\BackGroundMan
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\BackGroundManagement.pdb
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.Mvc.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.Razor.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Net.Http.Formatting.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.Http.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.Http.WebHost.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.Helpers.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.WebPages.Deployment.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.WebPages.Razor.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\System.Web.WebPages.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
@@ -30,6 +38,7 @@ D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.Ide
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
+D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.Web.Infrastructure.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
 D:\Github\MyWeb\BackGroundManagement\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
